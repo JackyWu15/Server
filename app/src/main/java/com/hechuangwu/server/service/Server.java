@@ -47,9 +47,11 @@ public class Server extends Service {
         }
 
         @Override
-        public List<Book> getBooKList() throws RemoteException {
+        public List<Book> getBookList() throws RemoteException {
             return mBookList;
         }
+
+
     };
 
 
