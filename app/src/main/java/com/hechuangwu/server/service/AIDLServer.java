@@ -16,7 +16,7 @@ import java.util.List;
  * Created by cwh on 2019/3/18.
  * 功能:
  */
-public class Server extends Service {
+public class AIDLServer extends Service {
     private List<Book> mBookList = new ArrayList<>(  );
 
     @Override
