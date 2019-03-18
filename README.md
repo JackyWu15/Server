@@ -1,3 +1,2 @@
 # Server
-aidl server
-work with another project for https://github.com/TYRWU/Client
+this project a simple aidl demo which one of application work with another for https://github.com/TYRWU/Client
