@@ -38,16 +38,8 @@ public class AIDLServer extends Service {
         new Thread( new AddBookRunnable() ).start();
     }
 
-
-    @Override
-    public int onStartCommand(Intent intent, int flags, int startId) {
-        Log.i( "data", "onStartCommand: >>>>>>>>>>>" );
-        return super.onStartCommand( intent, flags, startId );
-    }
-
     @Override
     public IBinder onBind(Intent intent) {
-        Log.i( "data", "onBind: >>>>>>>>>>>>>>>>" );
         return mBinder;
     }
 
